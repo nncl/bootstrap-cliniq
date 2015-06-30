@@ -3,13 +3,13 @@
 // END Imports
 
 // Extends
-	#festival .normal {
+	.normal {
 	    float: left;
 	    width: 100%;
 	    height: auto; 
 	}
 
-	#festival .normal-box {
+	.normal-box {
 	    width: $large;
 	    margin: 0 auto;
 
@@ -18,23 +18,23 @@
 	    }	
 	}
 
-	#festival .normal-second {
+	.normal-second {
 		float: left;
 		width: 100%;
 	}
 
-	#festival .back {
+	.back {
 		background-repeat: no-repeat;
 		background-image: $sprite;
 	}
 
-	#festival .sizing {
+	.sizing {
 		-webkit-box-sizing: border-box !important;
 			-moz-box-sizing: border-box !important;
 				box-sizing: border-box !important;
 	}
 
-	#festival .footer {
+	.footer {
         position: absolute;
         bottom: 0;
         width: 100%;
