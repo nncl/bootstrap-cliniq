@@ -1,0 +1,7 @@
+{
+  "name" : "bootstrap-html",
+  "version": "0.0.1",
+  "dependencies" : {
+    "slicknav": "latest"
+  }
+}

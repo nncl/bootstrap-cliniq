@@ -1,0 +1,53 @@
+// Imports
+    @import 'modules/_all';
+// END Imports
+
+*,
+#project {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;	
+}
+
+a.btn {
+	@include fade;
+	@include border-radius(10px);
+	background-color: $rosa;
+	color: $branco;
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 50px;
+
+	&:hover {
+		color: $rosa;
+		background-color: $branco;
+	}
+}
+
+#project {
+	// @extend .normal-second;
+	width: $large;
+	margin: 0 auto;
+	font: 14px $font;
+	font-weight: 100;
+
+	@media only screen and (max-width: $large) {
+		width: $all;
+	}
+
+	img {
+		border: none;
+		max-width: 100%;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: $font;
+		font-style: normal;
+		margin: 0;
+	}
+}

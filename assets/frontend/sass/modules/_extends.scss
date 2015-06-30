@@ -1,0 +1,42 @@
+// Imports
+	@import '_variables';
+// END Imports
+
+// Extends
+	#festival .normal {
+	    float: left;
+	    width: 100%;
+	    height: auto; 
+	}
+
+	#festival .normal-box {
+	    width: $large;
+	    margin: 0 auto;
+
+	    @media only screen and (max-width: $large) {
+	    	width: $all;
+	    }	
+	}
+
+	#festival .normal-second {
+		float: left;
+		width: 100%;
+	}
+
+	#festival .back {
+		background-repeat: no-repeat;
+		background-image: $sprite;
+	}
+
+	#festival .sizing {
+		-webkit-box-sizing: border-box !important;
+			-moz-box-sizing: border-box !important;
+				box-sizing: border-box !important;
+	}
+
+	#festival .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+	}
+// END Extends
